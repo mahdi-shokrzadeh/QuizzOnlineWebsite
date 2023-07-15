@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/gamepage.css">
+
+
+    <script src="https://kit.fontawesome.com/ec68e2e10c.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    
+    <!-- sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="sweetalert2/dist/sweetalert2.all.min.js"></script>
+
+    <!-- Include a polyfill for ES6 Promises (optional) for IE11 -->
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
+
+
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-0 mb-4">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="images/logo50.png" alt="" id="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="نمایش فهرست"  >
+                <Span class="navbar-toggler-icon"></Span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainmenu">
+
+                <ul class="navbar-nav right-side mr-auto " >
+                    <li class="navbar-item active icon" >
+                        <i class="fas fa-house-user"></i>
+                        <a href="#" class="nav-link" href="index.html">خانه</a>
+                    </li>
+                    <li class="navbar-item icon ">
+                        <i class="fas fa-trophy"></i>
+                        <a href="#" class="nav-link" href="index.html">مسابقات</a>
+                    </li>
+                    <li class="navbar-item ">
+                        <a href="#" class="nav-link" href="index.html">ایجاد کوئیز</a>
+                    </li>
+                    <li class="navbar-item icon">
+                        <i class="fas fa-medal"></i>
+                        <a href="#" class="nav-link" href="index.html">نفرات برتر</a>
+                    </li>
+                    
+                    <li class="navbar-item icon ">
+                        <i class="fas fa-blog"></i>
+                        <a href="#" class="nav-link" href="index.html">وبلاگ</a>
+                    </li>
+
+                </ul>
+
+                <ul class="navbar-nav profile">
+                    
+                    <li class="nav-item dropdown mr-3">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+                            <i class="fas fa-user"></i>
+                        </a>
+
+                        <div class="dropdown-menu text-center">
+                            <span>محمدمهدی شکرزاده</span>
+
+                            <div class="dropdown-divider"></div>
+                            
+                            
+                            <a href="profile.html" class="dropdown-item text-right icon text-center">
+                                <i class="fa fa-user-circle-o"></i> پروفایل عمومی
+                            </a>
+                            
+                            <a href="#" class="dropdown-item text-right icon text-center">
+                                <i class="fa fa-cog"></i> تنظیمات
+                            </a>
+
+                            <a href="#" class="dropdown-item text-right icon text-center">
+                                <i class="fa fa-sign-out-alt"></i> خروج
+                            </a>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+            
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="subjects border p-3">
+            <div class="text-center border-bottom">
+                <h5>موضوعات<i class="fa fa-book ml-2"></i></h5>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-3 text-center mt-3">
+                    <button class="btn btn-outline-info">
+                        ریاضی
+                    </button>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 text-center mt-3">
+                    <button class="btn btn-outline-info">
+                        ریاضی
+                    </button>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 text-center mt-3">
+                    <button class="btn btn-outline-info">
+                        ریاضی
+                    </button>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 text-center mt-3">
+                    <button class="btn btn-outline-info">
+                        ریاضی
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center text-black mt-4">
+        <div class="container p-4">
+        <section class="mb-4">
+            <a class="btn btn-outline-primary btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-facebook-f"></i
+            ></a>
+    
+            <a class="btn btn-outline-primary btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-twitter"></i
+            ></a>
+    
+            <a class="btn btn-outline-primary btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-google"></i
+            ></a>
+    
+            <a class="btn btn-outline-primary btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-instagram"></i
+            ></a>
+
+            <a class="btn btn-outline-primary btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-linkedin-in"></i
+            ></a>
+
+            <a class="btn btn-outline-primary btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-github"></i
+            ></a>
+        </section>
+    
+        <section class="">
+            <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+                <!--Grid column-->
+                <div class="col-auto">
+                <p class="pt-2">
+                    <strong>عضویت در خبرنامه</strong>
+                </p>
+                </div>
+    
+                <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                    <input type="email" class="form-control" placeholder="آدرس ایمیل" />
+                </div>
+                </div>
+                <!--Grid column-->
+    
+                <!--Grid column-->
+                <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-dark mb-4">
+                    عضویت
+                </button>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+            </form>
+        </section>
+        <!-- Section: Form -->
+    
+        <!-- Section: Text -->
+        <section class="mb-4">
+            <p class="text-justify">
+                این یک متن آزمایشی است .این یک متن آزمایشی است .این یک متن آزمایشی است .این یک متن آزمایشی است .
+                این یک متن آزمایشی است .این یک متن آزمایشی است .این یک متن آزمایشی است .این یک متن آزمایشی است .
+            </p>
+        </section>
+
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                <!--Grid column-->
+                <div class="col-md-4  mb-4 mb-md-0">
+                    <h5>گروه 1</h5>
+        
+                    <ul class="list-unstyled mb-0">
+                    <li>
+                        <a href="#!" class="text-black">متن ساختگی</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-black">متن ساختگی</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-black">متن ساختگی</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-black">متن ساختگی</a>
+                    </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>گروه 2</h5>
+        
+                    <ul class="list-unstyled mb-0">
+                    <li>
+                        <a href="#!" class="text-black">متن ساختگی</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-black">متن ساختگی</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-black">متن ساختگی</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-black">متن ساختگی</a>
+                    </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>گروه 3</h5>
+        
+                    <ul class="list-unstyled mb-0">
+                    <li>
+                        <a href="#!" class="text-black">متن ساختگی</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-black">متن ساختگی</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-black">متن ساختگی</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-black">متن ساختگی</a>
+                    </li>
+                    </ul>
+                </div>
+                
+                </div>
+            </section>
+        </div>
+  
+    <!-- Copyright -->
+        <div class="text-center p-3" >
+        © 2020 Copyright:
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+    
+          $('.count').each(function () {
+            $(this).prop('Counter', 0).animate({
+              Counter: $(this).text()
+            }, {
+                duration: 1000,
+                easing: 'swing',
+                step: function (now) {
+                  $(this).text(Math.ceil(now))
+                }
+              });
+          });
+    
+        });
+        function ConfrimUser() { 
+            Swal.fire({
+            title: 'مطمئنی میخوای انصراف بدی ؟ امتیازت کم میشه ها !',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'آره انصراف میدم' ,
+            cancelButtonText:'بازگشت' ,
+            }).then((result) => {
+            if (result.isConfirmed) {
+                
+                window.location.href = window.location.href;
+            }
+            })
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+@import url(fontiran.css); /* لینک فایلی که وظیفه بارگذاری فونت ها را برعهده دارد */
+body {
+	font-family: IRANSans !important;
+}
+h1, h2, h3, h4, h5, h6,input, textarea {
+	font-family: IRANSans !important;
+}
+h1 {
+	font-weight: bold;
+}
+
+
+
+body{
+    direction: rtl !important;
+}
+
+.profile .card {
+    border-radius: 5.5px;
+    border: 1px solid #D4D4D5;
+}
+.profile .card h5 {
+    font-size: 15px;
+}
+.profile .card span {
+    font-size: 12.5px;
+    
+}
+.profile .card .badge {
+    transition: 500ms;
+}
+.profile .card .badge:hover {
+    transform: scale(1.06);
+}
+
+.profile .table th {
+    font-size: 14px;
+    font-weight: 300;
+}
+.profile .table td {
+    font-size: 13.5px;
+    font-weight: 400;
+}

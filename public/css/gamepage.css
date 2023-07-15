@@ -1,0 +1,75 @@
+.main-part {
+    min-height: 300px;
+}
+.side-bar {
+    margin-bottom: 10px;
+}
+.side-bar .first-part {
+    border-radius: 5px;
+    box-shadow: 0 0 15px #2bcaca29 !important;
+    padding: 5px;
+}
+.side-bar .first-part .users-profile {
+    margin-top: 20px;
+}
+.side-bar .first-part .users-profile img {
+    margin-bottom: 8px;
+}
+.side-bar .first-part .users-profile .badge {
+    padding: 5px;
+}
+.side-bar .first-part .users-profile a.badge {
+    font-size: 13px;
+    font-weight: 350;
+    transition: 300ms;
+    background-color: rgba(137, 219, 224, 0.856);
+    color: black;
+}
+.side-bar .first-part .users-profile a.badge:hover {
+    transform: translateY(-1.5px);
+}
+.side-bar .first-part .users-profile .score .count {
+    font-size: 17px;
+    background-color: #ffcc5c ;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.side-bar .control-buttons .btn {
+    font-size: 14px;
+    border-radius: 12px;
+}
+.main-part .result {
+    margin: 0 0 7px 0;
+}
+.main-part .result i{
+    margin: 0 3px;
+}
+ 
+/* a8e6cf */
+
+.main-part .result span {
+    font-weight: 400;
+    transition: 500ms ;
+}
+.main-part .result span:hover {
+    transform: scale(1.05);
+}
+.main-part .chat {
+    padding: 0 10px;
+}
+.main-part .chat-box {
+    height: 230px;
+    margin-top: 6px;
+    border-radius: 10px;
+}
+
+
+#question_part {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px ;
+    margin: 5px 0;
+    font-size: 14px;
+    box-shadow: 0 0 12px #30ca2b29 !important;
+    margin-top: 10px;
+}

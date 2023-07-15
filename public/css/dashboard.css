@@ -1,0 +1,80 @@
+h5 {
+    font-size: 15px;
+}
+
+.user-informations .badge{
+    border-radius: 5px;
+    font-size: 12.5px;
+}
+
+.games-in-progress{
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 2px solid #00BCEF ;
+}
+
+.games-in-progress span.timer {
+    font-size: 12.5px;
+    margin: 0;
+    margin-top: 3px;
+    font-weight: 350;
+}
+.games-in-progress p {
+    font-size: 13.5px;
+    font-weight: 400;
+}
+.games-in-progress .btn {
+    font-size: 12px;
+    font-weight: 450;
+}
+.game-histories {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 2px solid #1BB9B7 ;
+}
+.game-histories .btn {
+    font-size: 12px;
+    font-weight: 450;
+}
+.game-histories i.fa-history {
+    color: #00BCEF;
+}
+
+.side-bar .part-1 {
+    border: 1px solid #D4D4D5;
+    border-top: 3px solid #98FB98;
+    border-radius: 5px;
+}
+.side-bar .part-2 {
+    border-radius: 5px;
+}
+/* .side-bar .part-2 .friends-list {
+    border-radius: 8px;
+    border: 0.5px solid #D4D4D5;
+} */
+.side-bar .part-2 .friends-list {
+    height:200px;
+    overflow-y: scroll ;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00000029;
+}
+
+.side-bar .part-2 .friends-list a {
+    text-decoration: none;
+    transform: 450ms;
+    color: black ;
+    font-size: 14px;
+    
+}
+.side-bar .part-2 .friends-list a :hover {
+    transform: scale(1.03);
+    font-weight: bold;
+}
+.side-bar .btn {
+    font-size: 14px;
+    font-weight: 450;
+    transition: 400ms;
+}
+.side-bar .btn:hover {
+    transform: scale(1.05) ;
+}

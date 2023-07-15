@@ -1,0 +1,24 @@
+.table-custom tr td {
+    border:none;
+}
+@import url(fontiran.css); /* لینک فایلی که وظیفه بارگذاری فونت ها را برعهده دارد */
+body {
+	font-family: IRANSans !important;
+}
+h1, h2, h3, h4, h5, h6,input, textarea {
+	font-family: IRANSans !important;
+}
+h1 {
+	font-weight: bold;
+}
+
+table tr {
+    font-size: 14px;
+}
+table td {
+    font-size: 13px;
+}
+table td a {
+    text-decoration: none !important;
+    color: rgb(56, 95, 223) ;
+}

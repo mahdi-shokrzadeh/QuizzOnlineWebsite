@@ -1,0 +1,107 @@
+body nav {
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid #DDDDDD ;
+}
+body nav .container a.navbar-brand {
+    border-radius: 5px;
+}
+body nav .container a.navbar-brand:hover{
+    background-color: #F2F2F2;
+}
+body nav ul.right-side {
+    margin-left: auto;
+}
+body nav ul.right-side li {
+    border-bottom: 2px solid #E8E8E9;
+    background-color: white;
+    margin-left: 7px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 450;
+    transition: 500ms;
+}
+
+body nav ul.right-side li:hover {
+    border-bottom: 2px solid #249b34;
+    background-color: #F2F2F2;
+    transform: scale(1.05);
+}
+body nav ul.right-side li.icon {
+    float: right;
+}
+body nav ul.right-side li.icon a {
+    display: inline-block;
+}
+
+body nav ul.right-side li.icon i {
+    display: inline-block;
+    margin-right: 5px;
+}
+body nav ul.profile {
+    
+}
+body nav ul.profile span.user_name {
+    font-size: 14px;
+    color: #2268c4;
+}
+body nav ul.profile li {
+
+    border-bottom: 2px solid #E8E8E9;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: 500ms;
+    background-color: white;
+
+}
+body nav ul.profile li a {
+    font-size: 14px;
+}
+body nav ul.buttons {
+    border-bottom: none;
+    font-weight: 350;
+}
+body nav ul.buttons a {
+    font-size: 13.5px;
+}
+body nav ul.profile li .dropdown-menu span {
+    margin-right: 7px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+
+}
+body nav ul.profile li .dropdown-menu a.icon {
+    display:block;
+    right: 5px;
+    font-size: 14.8px;
+}
+body nav ul.profile li .dropdown-menu a.icon i {
+    display: inline-block;
+}
+
+
+
+/* Footer*/
+footer a {
+    color: #9EA6AE;
+    background-color: transparent;
+    text-decoration: none !important;
+    font-size: 13px;
+    font-weight: 400;
+}
+footer p {
+    font-size: 15px;
+}
+footer h5 {
+    font-size: 15px;
+}
+footer a:hover {
+    color: rgb(65, 65, 65);
+}
+
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+}

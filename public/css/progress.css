@@ -1,0 +1,53 @@
+.main-part {
+    border-radius: 10px;
+    box-shadow: 0 0 15px #38ca2b29 !important;
+    padding: 5px;
+}
+.main-part .question-part .badge {
+    margin-top: 2px;
+    padding: 4px;
+    background-color: rgb(136, 196, 253);
+    font-size: 14px;
+    font-weight: 350;
+}
+.main-part .question-part .score span {
+    font-size: 13px;
+
+}
+.main-part .question-part p {
+    font-size: 15.5px;
+    font-weight: 490;
+}
+.main-part .sent-by span {
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: #A8E6CE;
+    
+}
+
+.timer #remaining-time{
+    font-size: 16px;
+}
+
+.options .btn {
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 15.5px;
+    box-shadow: 0 0 10px #ca2b2b46 !important;
+    transition: 500ms;
+    padding: 8px;
+}
+.options .btn:hover {
+    transform: translateY(-2px);
+}
+
+.helpers .btn {
+    font-size: 12px;
+    font-weight: 400;
+}
+.helpers .btn span {
+    margin-top: 3px;
+    font-size: 12.5px;
+    color: yellow;
+}

@@ -1,0 +1,19 @@
+.subjects {
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ca432b29 !important;
+
+}
+.subjects h5 {
+    margin-bottom:15px;
+}
+.subjects a {
+    transition: 400ms;
+    margin-bottom: 5px;
+    border-radius: 7px;
+}
+.subjects a:hover {
+    transform: translateY(-3px);
+
+}
